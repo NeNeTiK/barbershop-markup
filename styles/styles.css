@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-body{
+
+:root {
+    --color-gray: #303030;
+    --font-ral: 'Raleway', sans-serif;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
 
-.header a{
+ul {
+    list-style: none;
+}
+
+.section-title {
+    font-family: var(--font-ral);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.1666;
+    letter-spacing: 0.05em;
+}
+
+.header a {
     text-decoration: none;
     font-weight: 600;
     font-size: 12px;
@@ -12,12 +30,17 @@ body{
     letter-spacing: 0.1em;
 }
 
-.header {
-    background-color: #000;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: o;
 }
 
-.logo {
-
+.header {
+    background-color: #000;
 }
 
 .header-links {
@@ -26,7 +49,7 @@ body{
     font-size: 12px;
     line-height: 1.333;
     letter-spacing: 0.1em;*/
-    list-style: none; 
+    list-style: none;
 }
 
 .header-nav-link {
@@ -57,7 +80,7 @@ body{
     font-weight: 600;
     font-size: 12px;
     line-height: 1.333;
-    letter-spacing: 0.9em;
+    letter-spacing: 0.1em;
     color: #ffffff;
 }
 
@@ -66,3 +89,62 @@ body{
     color: #FF6C00;
 }
 
+.uptitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: var(--color-gray);
+}
+
+.hero {
+    background-image: url(../images/Sliderimg3.jpg);
+}
+
+.hero-uptitle {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+    font-family: var(--font-ral);
+    font-size: 72px;
+    line-height: 1.1805;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    line-height: 1.6666;
+    letter-spacing: 0.2em;
+    color: #9DA4BD;
+}
+
+.side-link {
+    font-size: 11px;
+    line-height: 1.3618;
+    text-decoration: none;
+    color: #303030;
+}
+
+.side-link:hover,
+.side-link:focus {
+    color: #FF6C00;
+}
+
+.slider-button {
+    background: none;
+    border: none;
+    text-decoration: underline #000;
+    font-size: 11px;
+    line-height: 1.3618;
+    color: #FFFFFF;
+}
+
+.button-back {
+    text-align: left;
+}
+
+.button-forward {
+    text-align: right;
+}
