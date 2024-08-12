@@ -21,21 +21,48 @@ body{
 }
 
 .header-links {
+    /*text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 0.1em;*/
     list-style: none; 
 }
 
 .header-nav-link {
+    /*text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 0.1em;*/
     color: #ffffff;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
+.header-hover:hover,
+.header-hover:focus {
     color: #FF6C00;
 }
 
 .header-contact {
     text-transform: uppercase;
     color: #ffffff;
+}
 
+.btn-booking {
+    background: none;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 0.9em;
+    color: #ffffff;
+}
+
+.btn-booking:hover,
+.btn-booking:focus {
+    color: #FF6C00;
 }
 
