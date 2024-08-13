@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: o;
+    margin: 0;
 }
 
 .header {
@@ -92,7 +92,7 @@ h6 {
 .uptitle {
     font-weight: 600;
     font-size: 11px;
-    line-height: 15px;
+    line-height: 1.3618;
     text-transform: uppercase;
     color: var(--color-gray);
 }
@@ -141,10 +141,31 @@ h6 {
     color: #FFFFFF;
 }
 
+.slider-button:hover,
+.slider-button:focus {
+    color: #9DA4BD99;
+}
+
 .button-back {
     text-align: left;
 }
 
 .button-forward {
     text-align: right;
+}
+
+.best-barbershop-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6666;
+    color: #555555;
+}
+
+.best-barbershop-btn {
+    color: var(--color-gray);
+}
+
+.best-subtitle {
+    font-size: 14px;
+    line-height: 1.8571;
 }
