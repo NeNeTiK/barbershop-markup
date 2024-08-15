@@ -169,3 +169,23 @@ h6 {
     font-size: 14px;
     line-height: 1.8571;
 }
+
+.table-subtitle {
+    color: #9DA4BD99;
+}
+
+.table-title {
+    color: #ffffff;
+}
+
+.table {
+    background-image: linear-gradient(#171A24 100%, #171A2433 20%);
+    color: #9DA4BD;
+    width: 570px;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
