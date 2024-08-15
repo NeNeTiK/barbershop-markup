@@ -22,6 +22,14 @@ ul {
     letter-spacing: 0.05em;
 }
 
+.section-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6666;
+    letter-spacing: 0.2em;
+    color: #555555;
+}
+
 .header a {
     text-decoration: none;
     font-weight: 600;
@@ -114,9 +122,6 @@ h6 {
 }
 
 .hero-subtitle {
-    font-size: 18px;
-    line-height: 1.6666;
-    letter-spacing: 0.2em;
     color: #9DA4BD;
 }
 
@@ -188,4 +193,24 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.advantage-title {
+    line-height: 1.3619;
+    text-align: center;
+}
+
+.advantage-title::after {
+    content: "+";
+    color: #FF6C00;
+    position: relative;
+    top: -20px;
+    font-size: 16px;
+}
+
+.advantage-list li p{
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: var(--color-gray);
 }
