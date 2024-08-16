@@ -236,21 +236,21 @@ h6 {
 
 .form-button {
     background: none;
-        border: 1px solid #FF6C00;
-        border-radius: 25px;
-        text-decoration: none;
-        text-align: center;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 1.333;
-        color: #ffffff;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.333;
+    color: #ffffff;
 }
 
-.address-uptitle{
+.address-uptitle {
     color: #FFFFFF;
 }
 
-.address-subtitle{
+.address-subtitle {
     font-weight: 700;
     color: #9DA4BD;
 }
