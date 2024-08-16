@@ -208,9 +208,25 @@ h6 {
     font-size: 16px;
 }
 
-.advantage-list li p{
+.advantage-list li p {
     font-size: 11px;
-    line-height: 15px;
+    line-height: 1.3636;
     text-align: center;
     color: var(--color-gray);
 }
+
+.barbers-uptitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3616;
+    text-align: center;
+}
+
+.barbers-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3621;
+    text-align: center;
+    color: #FF6C00;
+}
+
