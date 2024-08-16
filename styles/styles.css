@@ -230,3 +230,43 @@ h6 {
     color: #FF6C00;
 }
 
+.booking-title {
+    color: #FFFFFF;
+}
+
+.form-button {
+    background: none;
+        border: 1px solid #FF6C00;
+        border-radius: 25px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.333;
+        color: #ffffff;
+}
+
+.address-uptitle{
+    color: #FFFFFF;
+}
+
+.address-subtitle{
+    font-weight: 700;
+    color: #9DA4BD;
+}
+
+.booking-subtitle {
+    color: #9DA4BD;
+    letter-spacing: 0;
+}
+
+.address-link {
+    font-weight: 400;
+    font-size: 18;
+    line-height: 1.6666;
+    color: #9DA4BD;
+}
+
+.num-link {
+    text-decoration: none;
+}
